@@ -1,0 +1,234 @@
+.bar{
+    background-image: url(image/pexels-𝐕𝐞𝐧𝐮𝐬-𝐇𝐃-𝐌𝐚𝐤𝐞-𝐮𝐩-&-𝐏𝐞𝐫𝐟𝐮𝐦𝐞-1722868.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.d-flex{
+  width: 300Px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: px;
+}
+#test{
+  width: 300px;
+  border: none;
+}
+
+ #test:focus{
+  outline: none;
+  border: none;
+}
+  .bg{
+    background: rgb(240, 129, 195);
+  }
+  .wrapper{
+    height: 50px;
+  }
+  span{
+    color: rgb(82, 4, 61);
+  }
+  .navbar-nav .nav-item .nav-link{
+    color:white;
+}
+ .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(233, 13, 174);
+}
+.faz{
+    width: 400px;
+}
+.para{
+    font-size: 2em;
+    font-weight: bold;
+    font-style:italic ;
+    color: rgb(82, 4, 61);
+
+}
+
+
+.de{
+  height: 530px;
+  background: url("image/banniere-milieu-homepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 10px;
+  border-radius: 50px;
+  
+}
+.tex{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+
+}
+p a{
+  text-decoration: none;
+}
+.der{
+  height: 270px;
+  margin-bottom:10px; 
+  background: url("image/banniere-milieu-homepage-825-x-530-px-800x400.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 50px;
+
+  
+}
+.bo{
+  height: 270px;
+  margin-top: 10px;
+  background: url("image/banniere-milieu-homepage-825-x-530-px-1-800x412.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 50px;
+
+  
+}
+.rod{
+  height: 270px;
+   margin-bottom:10px; 
+  background: url("image/banniere-milieu-homepage-825-x-530-px-800-x-543-px.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end; 
+  border-radius: 50px;
+}
+.rod:hover{
+  transform: scale(1.1);
+}
+.der:hover{
+  transform: scale(1.1);
+}
+.bo:hover{
+  transform: scale(1.1);
+}
+.dere:hover{
+  transform: scale(1.1);
+}
+.de:hover{
+  transform: scale(1.1);
+}
+
+.dere{
+  height: 270px;
+  margin-top: 10px;
+  background: url("image/banniere-milieu-homepage-825-x-530-px-800-x-543-px-1.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 50px;
+}
+.cascading-right {
+  margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+}
+.cox{
+  height: 600px;
+}
+.cox img{
+  height: 100%;
+
+}
+.b{
+  
+    background-color: rgba(233, 13, 174, 0.053);
+}
+    .background-radial-gradient {
+      background-color: rgba(221, 160, 221, 0.371);
+}
+.btn{
+    background-color: rgb(82, 4, 61);
+}
+.submit{
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(82, 4, 61) ;
+  border-radius: 5px;
+  color: white;
+}
+@media (max-width: 996px) {
+  .carousel-inner .carousel-item  div {
+      display: none;
+  }
+  .carousel-inner .carousel-item  div:first-child {
+      display: block;
+  }
+  .mb{
+      margin-top: 50px;
+  }
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+  justify-content: center;
+}
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+.card{
+  border-radius: 3px;
+  box-shadow: 5px 5px  rgba(0, 0, 0, 0.097);
+  transform: translate(5px);
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.fa-star{
+  color:  rgb(82, 4, 61);
+}
+.carousel-item .card{
+  border: 1px solid  rgb(82, 4, 61) ;
+  background-color:rgb(240, 129, 195);
+  color: white;
+}
+.doc{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.doc img{
+  width: 100%;
+  height: 100%;
+}
